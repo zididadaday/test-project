@@ -8,7 +8,7 @@ git remote add origin https://github.com/zididadaday/test-project
 
 This will add a location to store your files named origin.
 
-github commit -a "description"
+github commit -a
 
 This will save all your changes.
 
