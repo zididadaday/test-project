@@ -53,3 +53,18 @@ Will update your ~/.gitconfig and tell git to store your credentials in a ~/.git
 ## Permissions required for the token
 
 What permissions should you add to the token? (principle of least privilege)
+
+```
+Actions
+Administration
+Codespaces
+Commit statuses
+Contents
+Metadata
+Pull requests
+```
+
+## Useful links
+
+`https://git-scm.com/docs/git-push`
+`https://stackoverflow.com/questions/74493073/using-a-github-fine-grained-token-with-git-pull-over-https`
