@@ -32,7 +32,7 @@ select the branch of your project
 
 This will add a location to store your files named origin.
 
-`github commit -a`
+`git commit -a`
 
 This will save all your changes.
 
