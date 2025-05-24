@@ -4,7 +4,7 @@ I created a new fine grained personal token to succesfully login. I had to set i
 
 ## Commands
 
-'mkdir test-project'
+`mkdir test-project`
 
 Create a local directory to store your project.
 
