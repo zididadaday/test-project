@@ -8,35 +8,35 @@ I created a new fine grained personal token to succesfully login. I had to set i
 
 Create a local directory to store your project.
 
-cd test-project
+`cd test-project`
 
 Change to the project directory.
 
-git init
+`git init`
 
 Initialize your new project.
 
-touch README.md
+`touch README.md`
 
 create a README.md file.
 
-git commit -m "first commit"
+`git commit -m "first commit"`
 
 commit your first changes
 
-git branch -M main
+`git branch -M main`
 
 select the branch of your project
 
-git remote add origin https://github.com/zididadaday/test-project
+`git remote add origin https://github.com/zididadaday/test-project`
 
 This will add a location to store your files named origin.
 
-github commit -a
+`github commit -a`
 
 This will save all your changes.
 
-git push -u origin main
+`git push -u origin main`
 
 Will push your changes to your git repository called origin.
 
@@ -44,8 +44,8 @@ Will push your changes to your git repository called origin.
 ## More tips
 
 I got tired of having to enter my credentials and key on every commit.
-
+```
 git config --global credential.helper store
 git config --global credential.useHttpPath true
-
+```
 Will update your ~/.gitconfig and tell git to store your credentials in a ~/.gitcredentials file for the given repository.
