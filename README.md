@@ -4,6 +4,30 @@ I created a new fine grained personal token to succesfully login. I had to set i
 
 ## Commands
 
+mkdir test-project
+
+Create a local directory to store your project.
+
+cd test-project
+
+Change to the project directory.
+
+git init
+
+Initialize your new project.
+
+touch README.md
+
+create a README.md file.
+
+git commit -m "first commit"
+
+commit your first changes
+
+git branch -M main
+
+select the branch of your project
+
 git remote add origin https://github.com/zididadaday/test-project
 
 This will add a location to store your files named origin.
