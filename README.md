@@ -15,3 +15,13 @@ This will save all your changes.
 git push -u origin main
 
 Will push your changes to your git repository called origin.
+
+
+## More tips
+
+I got tired of having to enter my credentials and key on every commit.
+
+git config --global credential.helper store
+git config --global credential.useHttpPath true
+
+Will update your ~/.gitconfig and tell git to store your credentials in a ~/.gitcredentials file for the given repository.
