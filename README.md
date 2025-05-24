@@ -32,6 +32,11 @@ select the branch of your project
 
 This will add a location to store your files named origin.
 
+`git add -A`
+
+This will add all new files you have added to your project.
+Without the `-A` option you can add specific files.
+
 `git commit -a`
 
 This will save all your changes.
