@@ -59,13 +59,13 @@ Will update your ~/.gitconfig and tell git to store your credentials in a ~/.git
 
 What Repository permissions should you add to the token? (principle of least privilege)
 
--Actions
--Administration
--~Codespaces~
--Commit statuses
--Contents
--Metadata
--Pull requests
+- Actions
+- Administration
+- ~Codespaces~
+- Commit statuses
+- Contents
+- Metadata
+- Pull requests
 
 ## Generate a git -diff for two folders
 
