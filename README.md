@@ -57,12 +57,12 @@ Will update your ~/.gitconfig and tell git to store your credentials in a ~/.git
 
 ## Permissions required for the token
 
-What permissions should you add to the token? (principle of least privilege)
+What Repository permissions should you add to the token? (principle of least privilege)
 
 ```
 Actions
 Administration
-Codespaces
+~Codespaces~
 Commit statuses
 Contents
 Metadata
