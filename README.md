@@ -69,6 +69,23 @@ Metadata
 Pull requests
 ```
 
+## Generate a git -diff for two folders
+
+```
+## --no-index is the way to go, here we are just getting diffstat to give us a summary of changes
+git diff --no-index --patch --summary folder1/ folder2/ | diffstat > summary-of-changes.patch
+## here we have removed diffstat, generating a patch
+git diff --no-index --patch --summary folder1/ folder2/ > changes.patch
+
+## here we put the summary of changes and patch into one file
+echo --- > final.patch
+cat summary-of-changes.patch changes.patch >> final.patch
+
+## here we apply the patch
+patch --dry-run -p1 -ruN -d original2 < final.patch
+patch -p1 -ruN -d original2 < final.patch
+```
+
 ## Useful links
 
 [https://git-scm.com/docs/git-push](https://git-scm.com/docs/git-push)
